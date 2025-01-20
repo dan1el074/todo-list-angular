@@ -1,6 +1,8 @@
 # Todo-List Angular
 
-Esse projeto foi feito com o [Angular CLI](https://github.com/angular/angular-cli) versão 17.3.11.
+Feito usando [Angular CLI](https://github.com/angular/angular-cli) versão 17.3.11.
+
+Projeto simples que serviu como revisão antes de começar um projeto maior.
 
 # Para executar:
 
