@@ -1,0 +1,28 @@
+{
+    "tasks": [
+      {
+        "id": "ki92",
+        "name": "Estudar C#",
+        "category": "Curso",
+        "complete": false
+      },
+      {
+        "id": "45de",
+        "name": "Estudar Angular",
+        "category": "Trabalho",
+        "complete": true
+      },
+      {
+        "id": "81fa",
+        "name": "Estudar Matemática",
+        "category": "Faculdade",
+        "complete": false
+      },
+      {
+        "id": "cf1f",
+        "name": "Reunião - Diretoria",
+        "category": "Trabalho",
+        "complete": false
+      }
+    ]
+  }

@@ -1,0 +1,9 @@
+<div
+    class="task"
+    (dblclick)="onToggle(task)"
+    [ngClass]="{active: task.complete}"
+>
+    <h2>{{ task.name }}</h2>
+    <p class="task-category">{{ task.category }}</p>
+    <span class="close" (click)="onDelete(task)">❌</span>
+</div>

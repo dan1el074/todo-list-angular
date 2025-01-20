@@ -1,0 +1,19 @@
+button {
+    padding: 12px 24px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+    margin: 8px 0;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &:active {
+        transform: scale(1);
+    }
+}

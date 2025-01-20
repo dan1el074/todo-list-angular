@@ -1,0 +1,35 @@
+.task {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 8px 16px;
+    margin-top: 8px;
+    position: relative;
+
+    &.active {
+        border-left: 4px solid green;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .close {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.06)
+        }
+
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}

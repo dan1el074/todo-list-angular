@@ -1,0 +1,32 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+
+    input, select {
+        margin: 6px 0 4px;
+        padding: 10px 18px;
+    }
+
+    input[type="submit"] {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+
+        &:active {
+            transform: scale(1);
+        }
+    }
+
+    .hide {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+@if(showForm) {
+    <app-button text="Cancelar" color="red" (click)="onToggle()"></app-button>
+} @else {
+    <app-button text="Nova Tarefa" color="green" (click)="onToggle()"></app-button>
+}
+
+<form class="task-form" (ngSubmit)="onSubmit()" *ngIf="showForm">
+    <label for="taskName">Tarefa:</label>
+    <input
+        type="text"
+        id="taskName"
+        name="taskName"
+        placeholder="Estudar materia ..."
+        required
+        [(ngModel)]="name"
+    >
+
+    <label for="category">Categoria</label>
+    <select name="category" id="category" required [(ngModel)]="category">
+        <option value="default" class="hide" selected disabled>Selecione</option>
+        <option value="Casa">Casa</option>
+        <option value="Trabalho">Trabalho</option>
+        <option value="Faculdade">Faculdade</option>
+        <option value="Academia">Academia</option>
+        <option value="Lazer">Lazer</option>
+    </select>
+
+    <input type="submit" value="Salvar Tarefa">
+</form>
